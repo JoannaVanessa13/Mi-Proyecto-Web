@@ -1,0 +1,63 @@
+ <style>
+
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            color:gray;
+            /*border:1px green dashed; */
+        }
+
+
+        #Encabezado{
+            margin:60px; 
+            padding:30px; 
+            font-family: cursive;
+            color:blueviolet; 
+            text-align:center;
+        }
+
+        h6{
+            font-size:20px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style:italic; 
+            color:darkmagenta; 
+            text-align:center;
+        }
+
+        .p1{
+            font-family: 12px;
+            text-align: justify;
+            
+        }
+
+        #img1{
+            width: 170px; 
+            margin:auto; 
+            padding:20px;
+            text-align: center; 
+            background-color:pink; 
+            border:2px darkviolet solid;
+            border-radius: 110px; 
+            
+        }
+        
+        #img1 img{
+            width:150px;
+        
+        }
+
+        #img2{
+            width:700px;
+            margin:auto;
+            border:2px pink solid;
+        }
+
+        #img2 img{
+            width:500px;
+            
+        }
+
+        #centrar{
+            text-align: center;
+        }
+        
+    </style>
