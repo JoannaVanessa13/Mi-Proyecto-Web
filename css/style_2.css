@@ -1,0 +1,63 @@
+<style>
+        
+img {
+    width: 50px;
+    height: 50px;
+
+}
+
+body {
+    width: 80%;
+    height: 1080px;
+    margin: auto;
+    background-color: rgb(238, 241, 227);
+    }
+    
+/*class*/
+a{
+    background-color: rgb(255, 221, 192);
+    transition:background-color .5;
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+    padding: 30px;
+}
+
+a:hover {
+    background-color: plum;
+
+}
+
+h1 {
+    color: brown;
+
+}
+
+h2 {
+    color: rgb(130, 62, 14);
+
+}
+
+b {
+    color: rgb(233, 92, 139);
+
+}
+
+p {
+    color: rgb(151, 104, 22);
+
+
+}
+
+li {
+    float: left;
+        
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+</style>
