@@ -34,24 +34,32 @@
   <header>
     <img src="img/rosa_logo.png" alt="logo">
     <h1>puntos de vista de la musica</h1>
+
+    <div id="dpad">
+      <div id="dpad-top"></div>
+      <div id="dpad-bottom"></div>
+
+    </div>
   </header>
   <p>La musica es una arte que cualquiera puede interpretar/entender como quiera, algunos podremos enteder en una canción una historia, tenemos la capacidad de imaginar los ecenarios, o ustedes nunca  se han imaginado como estuvieran en la canción,
     y como podemos hacer eso tambíen cada persona tiene su prespectiva de la musica como por ejemplo:
   </p>
-  <li>
-    <h2>-Estudio</h2>
-    <h2>-Relajación</h2>
-    <h2>-Comunicación </h2>
-    <h2>-Inspiración</h2>
-    <h2>-Portales/ecenarios</h2>
-  </li>
+  
+  <h2>-Estudio</h2>
+
+  <h2>-Relajación</h2>
+
+  <h2>-Comunicación </h2>
+
+  <h2>-Inspiración</h2>
+
+  <h2>-Portales/ecenarios</h2>
+  
   <div id="img1">
-    <h6>Canciones que talvez te puedan gustar</h6>
-    <a href="https://www.youtube.com/watch?v=9e699F9PR_o">
-      <img src="img/morado.jpg" alt="ir a yputube">
-    </a>
+    <h4>Canciones que talvez te puedan gustar</h4>
+    <a href="https://www.youtube.com/watch?v=9e699F9PR_o"></a>
   </div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9e699F9PR_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8EZMsxqaXjE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <style>
     #logo{
       width: 60px;
@@ -61,13 +69,14 @@
     width: 80%;
     height: 1080px;
     margin: auto;
-    background-color: rgb(174, 174, 143);
+    background-color: rgb(238, 185, 185);
     }
 
     header{
-     background-color:rgb(231, 224, 184);
+     background-color:rgb(243, 228, 159);
      padding:0 10%;
      border-radius: 10px;
+     border-style: double;
     }
 
     header > h1 {
@@ -113,18 +122,43 @@
     nav > a { 
       display: block;
       padding: 20px;
-      background-color: #df8d0051;
+      background-color: #e0b36651;
     }
-    #img1 > link{
-      width: 10px;
-      padding: 200px;
-      height: 400px;
+    iframe {
+      width: 600px;
+      height: 300px;
+      padding-left: 40%;
+      padding-top:0 1px;
+      padding-bottom: 500px;
+      margin-top: 1px;
+      
+    }
+
+    h4{
+      text-align: right;
+      padding-top: 10px;
+      margin-top: -400px;
+  
+    }
+
+    h2 {
+      padding: 10px;
+
+    }
+
+
+    #dpad {
+      width: 60px;
+      height: 60px;
+      margin-top: 15px;
+      margin-left: 20px;
+      display: inline-block
 
     }
 
 
 
-   
+
   </style>
 </body>
 </html>
