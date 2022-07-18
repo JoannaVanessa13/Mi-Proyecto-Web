@@ -5,30 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puntos De Vista En la Musica</title>
-    <style>
-      /* Smarthphone vertical   */
-     @media (max-width:639px){
-       body {
-         font-size: 12px;
-         width: 700px;
-         height: 28px;
-        }
-       
-
-      }
-
-     /*     tablets horizontal & laptop vertical (touch screen)    */
-      @media only screen and (min-width:1024px) and (max-width:1279px){
-        body {
-          font-size: 20px;
-          width: 800px;
-          height: 36px;
-
-        }
-
-      }
-
-    </style>
 </head>
 <body>
   <script>
@@ -61,19 +37,42 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/0XFdZFGhUzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <main>
     <div>
-      <button id="boton01" onmouseleave="cambiartexto()">cambiartexto</button>
+      <button id="boton01" onmouseover="poner_letra()">letra</button>
       <!-- onclick    onmouseover    onmouseleave   onchange-->
     </div>
 
     <div>
-      <input type="text" value="laura" class="claseInput1" id="name"
+      <input type="text" value="laura" class="claseInput1" id="canción"
       onchange="checar()">
       <button id="boton02" onclick="mensaje()">checar</button>
       <button id="boton03" onclick="resetear()">Resetear</button>
     </div>
-    <script type="tex/javascript" src="js/getelements.js"></script>
+    <script type="tex/javascript" src="js/getElement.js"></script>
   </main>
   <style>
+    /* Smarthphone vertical   */
+    @media (max-width:639px){
+    body {
+       font-size: 12px;
+       width: 700px;
+       height: 28px;
+      }
+       
+
+    }
+
+     /*     tablets horizontal & laptop vertical (touch screen)    */
+      @media only screen and (min-width:1024px) and (max-width:1279px){
+        body {
+          font-size: 20px;
+          width: 800px;
+          height: 36px;
+
+        }
+
+      }
+
+
     #logo{
       width: 60px;
     }
