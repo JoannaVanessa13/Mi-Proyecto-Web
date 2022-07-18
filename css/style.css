@@ -3,7 +3,7 @@ body{
     margin: 0;
   }
   header{
-     background-color:rgb(180, 250, 227);
+     background-color:rgb(89, 79, 54);
      padding:0 10%;
   }
   header > h1 {
@@ -27,7 +27,7 @@ body{
      width: 250px;
      height: 300px;
      float: left;
-     background-color:peachpuff;
+     background-color:rgb(244, 204, 171);
      border-top-left-radius: 30px;
      border-bottom-left-radius: 30px;
      border-top-right-radius: 30px;
@@ -36,8 +36,8 @@ body{
      width: 250px;
      height: 250px;
      margin-top: 50px;
-     background-color:palevioletred;
-     border-left-color: plum;
+     background-color:rgb(199, 252, 200);
+     border-left-color: black;
      border-left-style: solid;
      border-left-width: 3px;
      float: left;
@@ -45,7 +45,7 @@ body{
      border-top-right-radius: 30px;
    }
    .display {
-     border-color: #494949;
+     border-color: #000000;
      border-style: solid;
      border-radius: 15px;
      border-width: 3px;
@@ -55,7 +55,7 @@ body{
      height: 150px;
      margin-left: 35px;
      margin-top: 40px;
-     background-color: white;
+     background-color: rgb(199, 252, 200);
    }
    #left > .display > img {
      margin-left: 15px;
@@ -72,21 +72,21 @@ body{
       width: 20px;
       height: 20px;
       margin-left: 20px;
-      background-color: #2b2a2a;
+      background-color: #000000;
     }
     #dpad-horizontal {
       width: 60px;
       height: 20px;
-      background-color: #222222;
+      background-color: #000000;
     }
     #btn-circle {
       width: 50px;
       height: 50px;
       margin-left: 95px;
       border-style: solid;
-      border-color: rgb(15, 15, 126);
+      border-color: black;
       border-radius: 25px;
-      background-color: blue;
+      background-color: rgb(252, 206, 241);
       display: inline-block;
     }
    #right > .display {
@@ -94,7 +94,7 @@ body{
      height: 120px;
      margin-left: 35px;
      margin-top: 20px;
-     background-color: green;
+     background-color: rgb(253, 252, 211);
      font-size: 12px;
    }
     #pad {
@@ -106,10 +106,10 @@ body{
     #pad > .btn {
       width: 25px;
       height: 25px;
-      background-color: rgb(43, 202, 202);
+      background-color: rgb(110, 98, 74);
       display: inline-block;
       border-style: solid;
-      border-color: teal;
+      border-color: rgb(0, 0, 0);
       border-width: 2px;
       border-radius: 3px;
     }
