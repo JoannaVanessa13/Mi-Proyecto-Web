@@ -1,7 +1,7 @@
 var idp=1;
 var long=0;
 
-    const url = "https://lauragaguilar.github.io/ejem_json_api/poke.json";
+    const url = "https://joannavanessa13.github.io/Ejem_json_api/";
 
     function buscar(){
     
