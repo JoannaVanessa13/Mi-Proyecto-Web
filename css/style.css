@@ -3,7 +3,7 @@ body{
     margin: 0;
   }
   header{
-     background-color:rgb(89, 79, 54);
+     background-color:rgb(244, 204, 171);
      padding:0 10%;
   }
   header > h1 {
@@ -86,7 +86,7 @@ body{
       border-style: solid;
       border-color: black;
       border-radius: 25px;
-      background-color: rgb(252, 206, 241);
+      background-color: rgb(244, 202, 220);
       display: inline-block;
     }
    #right > .display {
@@ -106,7 +106,7 @@ body{
     #pad > .btn {
       width: 25px;
       height: 25px;
-      background-color: rgb(110, 98, 74);
+      background-color: rgb(98, 75, 56);
       display: inline-block;
       border-style: solid;
       border-color: rgb(0, 0, 0);
