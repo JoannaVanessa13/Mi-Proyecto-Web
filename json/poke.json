@@ -27,7 +27,7 @@
           "tipo" : " veneno " ,
           "altura" : 0.6 ,
           "peso" : 1.0 ,
-          "descripcion" : " Contiene sustancias tóxicas que mezcla con desperdicios para provocar una reacción química que libera un gas tremendamente venenoso. " ,
+          "descripcion" : " tiene sustancias tóxicas que mezcla con desperdicios para liberar un gas tremendamente venenoso. " ,
           "figure" : "https://drive.google.com/uc?export=view&id=1bNfvFm7pUR-oI82QbQSMwd4ymuAsr0UL"        
         },
         {
@@ -36,7 +36,7 @@
           "tipo" : " tierra " ,
           "altura" : 0.4 ,
           "peso" : 5.0 ,
-          "descripcion" : "Su movimiento más poderoso por STAB. Con Ida y vuelta el Pokémon podrá estar cambiando con otro si se ve que una amenaza se aproxima. " ,
+          "descripcion" : "Con Ida y vuelta el Pokémon podrá estar cambiando con otro si se ve que una amenaza se aproxima. " ,
           "figure" : "https://drive.google.com/uc?export=view&id=1mx6SzOwLr00EPlOud8Ta9YWEZdzivg08"  
         },
         {
@@ -45,7 +45,7 @@
           "tipo" : " tierra " ,
           "altura" : 0.4 ,
           "peso" : 6.5 ,
-          "descripcion" : "Su grito hace eco y parece una triste melodía. Si está triste o solitario, agita la calavera y emite un sonido lúgubre y lastimero." ,
+          "descripcion" : "Su grito hace eco y parece una triste melodía. Si está triste, agita la calavera y emite un sonido lúgubre y lastimero." ,
           "figure" : "https://drive.google.com/uc?export=view&id=1oHfuuvbHfHIcn2XXGBOWQWoGUfG4IqKH"      
         }
     ]
