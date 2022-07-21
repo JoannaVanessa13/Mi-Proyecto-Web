@@ -24,7 +24,7 @@
 
   <h2>-Relajación</h2>
 
-  <h2>-Comunicación </h2>
+  <h2>-Comunicarse </h2>
 
   <h2>-Inspiración</h2>
 
@@ -35,20 +35,6 @@
     <a href="https://www.youtube.com/watch?v=9e699F9PR_o"></a>
   </div>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/0XFdZFGhUzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <main>
-    <div>
-      <button id="boton01" onmouseover="poner_letra()">letra</button>
-      <!-- onclick    onmouseover    onmouseleave   onchange-->
-    </div>
-
-    <div>
-      <input type="text" value="noel" class="claseInput1" id="canción"
-      onchange="checar()">
-      <button id="boton02" onclick="mensaje()">checar</button>
-      <button id="boton03" onclick="resetear()">Resetear</button>
-    </div>
-    <script type="tex/javascript" src="js/getElement.js"></script>
-  </main>
   <style>
     /* Smarthphone vertical   */
     @media (max-width:639px){
@@ -175,6 +161,15 @@
 
 
   </style>
+  <main>
+    <div id="buscar">
+      <input type="text" id="namecanción" value="A color">
+      <button onclick="buscar()">buscar</button>
+    </div>
+    <section id="elem"></section>
+  </main>
+  <script type="tex/javascript" src="API_musica.js"></script>
+
 
 </body>
 </html>

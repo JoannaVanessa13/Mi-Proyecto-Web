@@ -1,0 +1,53 @@
+{
+    "apiName" : " canciones " ,
+    "origen" : " querétaro " ,
+    "creado" : 2022 ,
+    "canción" :[ 
+        {
+            "id" : 1 ,
+            "tipo" : " Sentimiento/comunicación " ,
+            "nombre" : " A color " ,
+            "genero" : " Balada " ,
+            "artista" : " Mila " ,
+            "descripcion" : " Aqui la mayoria de la gente tenemos esto entendido en la musica, aveces artistas o algunas personas usamos canciones para expresarnos en diferentes situaciones;esto es igual a como identificarse con alguna, por ejemplo la canción que les dejo recomendada podemos utlizarla para declararse a una persona de manera indirecta o si te da miedo decirselo, un buen tip es escucharla mientras piensas en el/ella; el simple echo de sentirse identificado o pensar que esta cancion trasmite un mensaje es simplemente muy hermoso; si ponemos un poco de atención podriamos encontrar la manera de poder entender mejor a una persona y poder expresarte sin que cualquiera pueda saberlo, sentir el mensaje que nos deja el artista o nosotros mismos, simplemente increible, lo recomiendo el 100%; les asejuro que se van a divertir buscando el mensaje en una cancion (aunque ojo,no todos los artistas hacen eso en sus canciones).  " ,
+            "figure" : "https://drive.google.com/uc?export=view&id=19o0xQrhmAQymy-0rWXlgdS81Nl4q02i_"
+        },
+        { 
+            "id" : 2 ,
+            "tipo" : " Estudio " ,
+            "nombre" : " Heather " ,
+            "genero" : " indiepop/pop " ,
+            "artista" : " Conan Gray (cover: Bruses) " ,
+            "descripcion" : " En el tema de estudiar depende mas de la personalidad o habitos de la persona, asique no hay un tipo de musica exacta para este punto de vista,pero lo que si sabemos es que las gente que ve asi la musica es más como un metodo de relajación; donde la mayoria del tiempo escucharían musica solo mientras estudian,y no se podria decir que se distraigan y terminen cantando el taxi (si saben de cual hablo) a todo pulmon con su publico de peluches o muñecas,no,en realidad se concentran mucho mejor en sus trabajos,proyectos o investigaciones.Esto no puede ser facil para algunas personas; ya que necesitas un nivel de concentración que haga que no te termines distrayento ( un buen truco para aprender a concentrarte en algo). " ,
+            "figure" : "https://drive.google.com/uc?export=view&id=1Z3iBuYDq6kuJqIcqoVwKvoFAA9xYqWZE"    
+        },
+        { 
+            "id" : 3 ,
+            "tipo" : " Esa no se baila, Esa se Vive " ,
+            "nombre" : " Como te voy a olvidar " ,
+            "genero" : " cumbia/Musica tropical " ,
+            "artista" : " Los Angeles Azules ",
+            "descripcion" : " Cuando hablamos de alguna canción lo primero que se nos viene es bailarla, pero para algunos de nosotros pensamos que hay canciones que no se pueden bailar, almenoz que tengas una imaginación que te envidiemos, volviendo al tema, no a todos nos gustaran o bailaremos canciones iguales, por ejemplo habra gente que le guste bailar canciones relajadas y a otros mas movidas, como cumbias, salsas y bahcatas, pero en este punto de vista que les vengo manejando, es que a todos nodotros, pero todos, no me lo niegen, hay canciones que no solo bailamos, si no que les metemos un sentimiento pero del bueno.Imaginate ver a una persona cantando esa canción con tanta pasión, aunque por ejemplo no le hayan roto el corazon, solo que estos tienen unas canciones especificas donde se ponen asi, y esto es variado por el genero/tipo de musica que le guste.  " ,
+            "figure" : "https://drive.google.com/uc?export=view&id=1bNfvFm7pUR-oI82QbQSMwd4ymuAsr0UL"        
+        },
+        {
+            "id" : 4 ,
+            "tipo" : " Bunnebyl " ,
+            "nombre" : " tierra " ,
+            "genero" : " 0.4 ",
+            "artista" : " 0.4 " ,
+            "descripcion" : " Con Ida y vuelta el Pokémon podrá estar cambiando con otro si se ve que una amenaza se aproxima. " ,
+            "figure" : "https://drive.google.com/uc?export=view&id=1mx6SzOwLr00EPlOud8Ta9YWEZdzivg08"  
+        },
+        {
+            "id" : 5 ,
+            "tipo" : " Cubone " ,
+            "nombre" : " tierra " ,
+            "genero" : " 0.4 ",
+            "artista" : " 0.4 ",
+            "descripcion" : " Su grito hace eco y parece una triste melodía. Si está triste, agita la calavera y emite un sonido lúgubre y lastimero." ,
+            "figure" : "https://drive.google.com/uc?export=view&id=1oHfuuvbHfHIcn2XXGBOWQWoGUfG4IqKH"      
+        }
+    ]
+    
+}
