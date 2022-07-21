@@ -10,7 +10,7 @@
           "altura" : 1.4  ,
           "peso" : 62 ,
           "descripcion" : " Es la evolución de Nidorino, y la contraparte de Nidoqueen. " ,
-          "figure" : " https://drive.google.com/file/d/19o0xQrhmAQymy-0rWXlgdS81Nl4q02i_/view?usp=sharing"
+          "figure" : "https://drive.google.com/uc?export=view&id=19o0xQrhmAQymy-0rWXlgdS81Nl4q02i_"
         },
         { 
           "id" : 2 ,
@@ -19,7 +19,7 @@
           "altura" : 1.6 ,
           "peso" : 78.5 ,
           "descripcion" : " Esta introducido en la octava generaciòn, su movimiento caracteristico es el moluscañon. " ,
-          "figure" : "https://drive.google.com/file/d/1Z3iBuYDq6kuJqIcqoVwKvoFAA9xYqWZE/view?usp=sharing "    
+          "figure" : "https://drive.google.com/uc?export=view&id=1Z3iBuYDq6kuJqIcqoVwKvoFAA9xYqWZE"    
         },
         { 
           "id" : 3 ,
@@ -28,7 +28,7 @@
           "altura" : 0.6 ,
           "peso" : 1.0 ,
           "descripcion" : " Contiene sustancias tóxicas que mezcla con desperdicios para provocar una reacción química que libera un gas tremendamente venenoso. " ,
-          "figure" : " https://drive.google.com/file/d/1bNfvFm7pUR-oI82QbQSMwd4ymuAsr0UL/view?usp=sharing"        
+          "figure" : "https://drive.google.com/uc?export=view&id=1bNfvFm7pUR-oI82QbQSMwd4ymuAsr0UL"        
         },
         {
           "id" : 4 ,
@@ -37,7 +37,7 @@
           "altura" : 0.4 ,
           "peso" : 5.0 ,
           "descripcion" : "Su movimiento más poderoso por STAB. Con Ida y vuelta el Pokémon podrá estar cambiando con otro si se ve que una amenaza se aproxima. " ,
-          "figure" : " https://drive.google.com/file/d/1mx6SzOwLr00EPlOud8Ta9YWEZdzivg08/view?usp=sharing "  
+          "figure" : "https://drive.google.com/uc?export=view&id=1mx6SzOwLr00EPlOud8Ta9YWEZdzivg08"  
         },
         {
           "id" : 5 ,
@@ -46,7 +46,7 @@
           "altura" : 0.4 ,
           "peso" : 6.5 ,
           "descripcion" : "Su grito hace eco y parece una triste melodía. Si está triste o solitario, agita la calavera y emite un sonido lúgubre y lastimero." ,
-          "figure" : " https://drive.google.com/file/d/1oHfuuvbHfHIcn2XXGBOWQWoGUfG4IqKH/view?usp=sharing"      
+          "figure" : "https://drive.google.com/uc?export=view&id=1oHfuuvbHfHIcn2XXGBOWQWoGUfG4IqKH"      
         }
     ]
 }
