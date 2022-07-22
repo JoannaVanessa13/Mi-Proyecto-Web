@@ -10,7 +10,7 @@ function buscar(){
     console.log("canción:"+canción);
         
 
-    const url = " ";
+    const url = "https://joannavanessa13.github.io/Ejem_json_api/musica.json ";
 
     fetch(url+canción)
     .then(function(response){
