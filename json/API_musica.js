@@ -1,6 +1,12 @@
 var idp=1
 var long=0
-var canción="A color";
+var canción="A color" ;
+var canción="Heather" ;
+var canción="Como te voy a olvidar" ;
+var canción="Death Bed (Coffee for Your Head)" ;
+var canción="Fairytale" ;
+var canción="La noche más linda" ;
+var canción="El enamorado y la muerte" ;
 
 function buscar(){
     var element = document.getElementById("elem");

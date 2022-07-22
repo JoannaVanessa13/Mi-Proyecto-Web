@@ -109,15 +109,30 @@ h2 {
 
 main {
   margin: 100px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-right: 20px;
   background-color: white;
   width: 700px;
-  height: 700px;
+  height: 900px;
   padding: 200px;
-  text-align: 900px;
+  font-size: 30px;
   border-style: groove;
   border-color: black;
-  text-align: center;
+  text-align: left;
+
 }
+
+#inframe2 {
+  width: 600px;
+  margin-left: 30px;
+  height: 300px;
+  padding-left: 40%;
+  padding-top:0 1px;
+  margin-top: 1px;
+  margin-bottom: 900px;
+  background-color: rgb(253, 252, 211);
+  padding: 60px;
+}
+
+
 
