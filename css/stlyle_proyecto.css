@@ -108,13 +108,14 @@ h2 {
 }
 
 main {
-  margin:100px;
+  margin: 100px;
   margin-left: 30px;
   margin-right: 20px;
   background-color: white;
   width: 700px;
+  height: 700px;
   padding: 200px;
-  text-align: initial;
+  text-align: 900px;
   border-style: groove;
   border-color: black;
   text-align: center;
