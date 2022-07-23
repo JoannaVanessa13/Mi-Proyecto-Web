@@ -35,12 +35,12 @@
     <h4>Canción que talvez te pueda gustar</h4>
     <a href="https://www.youtube.com/watch?v=9e699F9PR_o"></a>
   </div>
-  <iframe id="inframe1" width="560" height="315" src="https://www.youtube.com/embed/0XFdZFGhUzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0XFdZFGhUzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <main>
-    <div id="buscar">
-      <input type="text" id="namecanción" value="A color">
-      <button onclick="buscar()">buscar</button>
+    <div id="dpad">
+      <input type="text" id="namecanción" value="has click">
+      <button onclick="buscar();">buscar</button>
     </div>
     <section id="elem"></section>
     <div id="display">
@@ -58,14 +58,19 @@
           <p id="artist"><b>Artista: </b>Mila</p>
         </li>
         <li>
-          <p id="des"><b>Descripción</b>Aqui la mayoria de la gente tenemos esto entendido en la musica, aveces artistas o algunas personas usamos canciones para expresarnos en diferentes situaciones;esto es igual a como identificarse con alguna, por ejemplo la canción que les dejo recomendada podemos utlizarla para declararse a una persona de manera indirecta o si te da miedo decirselo, un buen tip es escucharla mientras piensas en el/ella; el simple echo de sentirse identificado o pensar que esta cancion trasmite un mensaje es simplemente muy hermoso; si ponemos un poco de atención podriamos encontrar la manera de poder entender mejor a una persona y poder expresarte sin que cualquiera pueda saberlo, sentir el mensaje que nos deja el artista o nosotros mismos, simplemente increible, lo recomiendo el 100%; les asejuro que se van a divertir buscando el mensaje en una cancion (aunque ojo,no todos los artistas hacen eso en sus canciones).</p>
+          <p id="des"><b>Descripción: </b>Aqui la mayoria de la gente tenemos esto entendido en la musica, aveces artistas o algunas personas usamos canciones para expresarnos en diferentes situaciones;esto es igual a como identificarse con alguna, por ejemplo la canción que les dejo recomendada podemos utlizarla para declararse a una persona de manera indirecta o si te da miedo decirselo, un buen tip es escucharla mientras piensas en el/ella; el simple echo de sentirse identificado o pensar que esta cancion trasmite un mensaje es simplemente muy hermoso; si ponemos un poco de atención podriamos encontrar la manera de poder entender mejor a una persona y poder expresarte sin que cualquiera pueda saberlo, sentir el mensaje que nos deja el artista o nosotros mismos, simplemente increible, lo recomiendo el 100%; les asejuro que se van a divertir buscando el mensaje en una cancion (aunque ojo,no todos los artistas hacen eso en sus canciones).</p>
         </li>
       </ul>
-      <iframe id="inframe2" width="560" height="315" src="https://www.youtube.com/embed/SDGSwwNxBWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="display">
+        <img id="music-img" src="img/A_Color.jpg" alt="imagen">
+      </div>
 
     </div>
   </main>
   <script type="tex/javascript" src="API_musica.js"></script>
+  <script>
+    buscar();
+  </script>
 
 
 </body>
