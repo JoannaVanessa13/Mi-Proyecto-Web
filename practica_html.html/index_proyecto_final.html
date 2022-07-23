@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stlyle_proyecto.css">
+    <title>Puntos De Vista En la Musica</title>
+</head>
+<body>
+  <script>
+    saludo = "¿estas list@?";
+    alert("Hola bienvenid@ " + saludo);
+  </script>
+
+  <header>
+    <img src="img/rosa_logo.png" alt="logo">
+    <h1>puntos de vista de la musica</h1>
+  </header>
+  <p>La musica es una arte que cualquiera puede interpretar/entender como quiera, algunos podremos enteder en una canción una historia, tenemos la capacidad de imaginar los ecenarios, o ustedes nunca  se han imaginado como estuvieran en la canción,
+    y como podemos hacer eso tambíen cada persona tiene su prespectiva de la musica como por ejemplo:
+  </p>
+  
+  <h2>-Estudio</h2>
+
+  <h2>-Relajación</h2>
+
+  <h2>-Comunicarse </h2>
+
+  <h2>-Inspiración</h2>
+
+  <h2>-Portales/ecenarios</h2>
+  
+  <div id="img1">
+    <h4>Canción que talvez te pueda gustar</h4>
+    <a href="https://www.youtube.com/watch?v=9e699F9PR_o"></a>
+  </div>
+  <iframe id="inframe1" width="560" height="315" src="https://www.youtube.com/embed/0XFdZFGhUzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <main>
+    <div id="dpad">
+      <input type="text" id="namecanción" value="has click">
+      <button onclick="buscar();">buscar</button>
+    </div>
+    <section id="elem"></section>
+    <div id="display">
+      <ul>
+        <li>
+          <h1 id="type"><b>Tipo: </b>Sentimiento/comunicación</h1>
+        </li>
+        <li>
+          <p id="name"><b>Nombre: </b>A color</p>
+        </li>
+        <li>
+          <p id="gender"><b>Genero: </b>Balada</p>
+        </li>
+        <li>
+          <p id="artist"><b>Artista: </b>Mila</p>
+        </li>
+        <li>
+          <p id="des"><b>Descripción: </b>Aqui la mayoria de la gente tenemos esto entendido en la musica, aveces artistas o algunas personas usamos canciones para expresarnos en diferentes situaciones;esto es igual a como identificarse con alguna, por ejemplo la canción que les dejo recomendada podemos utlizarla para declararse a una persona de manera indirecta o si te da miedo decirselo, un buen tip es escucharla mientras piensas en el/ella; el simple echo de sentirse identificado o pensar que esta cancion trasmite un mensaje es simplemente muy hermoso; si ponemos un poco de atención podriamos encontrar la manera de poder entender mejor a una persona y poder expresarte sin que cualquiera pueda saberlo, sentir el mensaje que nos deja el artista o nosotros mismos, simplemente increible, lo recomiendo el 100%; les asejuro que se van a divertir buscando el mensaje en una cancion (aunque ojo,no todos los artistas hacen eso en sus canciones).</p>
+        </li>
+      </ul>
+      <iframe id="inframe2" id="music-img" width="560" height="315" src="https://www.youtube.com/embed/SDGSwwNxBWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+  </main>
+  <script type="tex/javascript" src="API_musica.js"></script>
+  <script>
+    buscar();
+  </script>
+
+
+</body>
+</html>
