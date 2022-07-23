@@ -12,7 +12,7 @@ var long=0
 
         .then(function(data){
            console.log(data.musicid);
-           long=data.musidid.length;
+           long=data.musicid.length;
            console.log("lenght:"+ long);
     
            var res= data.musicid.filter(item=>item.id===idp);
