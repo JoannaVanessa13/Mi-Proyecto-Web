@@ -1,9 +1,10 @@
 body{
     font-family:'Times New Roman', Times, serif;
     margin: 0;
+    background-color: #335C67;
   }
   header{
-     background-color:rgb(244, 204, 171);
+     background-color: #E09F3E;
      padding:0 10%;
   }
   header > h1 {
@@ -27,7 +28,7 @@ body{
      width: 250px;
      height: 300px;
      float: left;
-     background-color:rgb(244, 204, 171);
+     background-color: #FFF3B0;
      border-top-left-radius: 30px;
      border-bottom-left-radius: 30px;
      border-top-right-radius: 30px;
@@ -36,7 +37,7 @@ body{
      width: 250px;
      height: 250px;
      margin-top: 50px;
-     background-color:rgb(199, 252, 200);
+     background-color: #FFF3B0;
      border-left-color: black;
      border-left-style: solid;
      border-left-width: 3px;
@@ -47,14 +48,13 @@ body{
    .display {
      border-color: #000000;
      border-style: solid;
-     border-radius: 15px;
-     border-width: 3px;
    }
    #left > .display {
      width: 180px ;
      height: 150px;
      margin-left: 35px;
      margin-top: 40px;
+     color: black;
      background-color: rgb(255, 255, 255);
    }
    #left > .display > img {
@@ -86,7 +86,7 @@ body{
       border-style: solid;
       border-color: black;
       border-radius: 25px;
-      background-color: rgb(244, 202, 220);
+      background-color: #9E2A2B;
       display: inline-block;
     }
    #right > .display {
@@ -106,7 +106,7 @@ body{
     #pad > .btn {
       width: 25px;
       height: 25px;
-      background-color: rgb(98, 75, 56);
+      background-color: #540B0E;
       display: inline-block;
       border-style: solid;
       border-color: rgb(0, 0, 0);
