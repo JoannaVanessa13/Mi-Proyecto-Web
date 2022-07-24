@@ -1,10 +1,33 @@
 /* Smarthphone vertical   */
 @media (max-width:639px){
-body {
+ #logo {
+   width: 0 1px;
+
+  }
+ body {
    font-size: 12px;
    width: 700px;
    height: 28px;
   }
+
+  header {
+    padding: 2%;
+    font-size: 5px;
+
+  }
+
+  p {
+     color: black;
+     font-size: 5px;
+  }
+  h2 {
+     padding: 10px;
+     width: 225px;
+     padding: 5px;
+     height: 60px;
+     text-align: center;
+  }
+
    
 
 }
@@ -40,9 +63,8 @@ header{
 
 header > h1 {
  display: inline-block;
- margin-left: 30px;
- text-align: center;
- color: rgb(0, 0, 0);
+ margin-left: 20px;
+
 }
 
 nav{
@@ -55,16 +77,9 @@ nav{
 
 p {
   color: black;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-li {
- list-style-type: none;
-}
-
-li > p {
- margin: 0 5px;
-}
 a{
   transition:background-color .5;
   width: 200px;
@@ -113,7 +128,7 @@ main {
   margin-right: 20px;
   background-color: white;
   width: 700px;
-  height: 900px;
+  height: 1100px;
   padding: 200px;
   font-size: 30px;
   border-style: groove;
@@ -122,16 +137,16 @@ main {
 
 }
 
-#inframe2 {
-  width: 600px;
+#music-img {
+  width: 400px;
   margin-left: 30px;
-  height: 300px;
+  height: 200px;
   padding-left: 40%;
   padding-top:0 1px;
   margin-top: 1px;
-  margin-bottom: 900px;
+  margin-bottom: 700px;
   background-color: rgb(253, 252, 211);
-  padding: 60px;
+  padding: 50px;
 }
 
 
