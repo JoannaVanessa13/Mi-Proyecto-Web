@@ -17,16 +17,17 @@
     <img src="img/rosa_logo.png" alt="logo">
     <h1>puntos de vista de la musica</h1>
   </header>
-  <nav>
-    <div class="toggle">
-        <i class="material-icons-outlined" onclick="mobile()">menu</i>
-    </div>
-    <ul id="idMobile">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca</a></li>
-        <li><a href="#">Contacto</a></li>                
-    </ul>
-  </nav>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav" id="myTopnav">
+    <a href="#Inicio" class="active">Inicio</a>
+    <a href="#Información">Información</a>
+    <a href="#Canciones recomendadas">Canciones recomendadas</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
 
   <p>La musica es una arte que cualquiera puede interpretar/entender como quiera, algunos podremos enteder en una canción una historia, tenemos la capacidad de imaginar los ecenarios, o ustedes nunca  se han imaginado como estuvieran en la canción,
     y como podemos hacer eso tambíen cada persona tiene su prespectiva de la musica como por ejemplo:
@@ -82,7 +83,6 @@
   <script>
     buscar();
   </script>
-
 
 </body>
 </html>
