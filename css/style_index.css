@@ -47,15 +47,14 @@
 
   #logo {
     width: 60px;
-    margin-top: 200px;
+    margin-top: 90px;
 
   }
 
   h1 {
     border-style: hidden;
     background-color: #FFF3B0;
-    margin-top: auto;
-    width: auto;
+    width: 100px;
     border-radius: 50px;
     padding:  70px;
     color: rgb(0, 0, 0);
