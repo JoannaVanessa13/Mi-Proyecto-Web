@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stlyle_proyecto.css">
     <title>Puntos De Vista En La Musica</title>
 </head>
 <body>
     <header>
         <img src="img/rosa_logo.png" alt="logo">
-        <h1>Puntos De Vista En La Musica</h1>
+        <h1>puntos de vista en la musica</h1>
     </header>
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,8 +20,8 @@
         <a href="#Información" class="active">Información</a>
         <a href="#Canciones recomendadas">Canciones recomendadas</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-       <i class="fa fa-bars"></i>
-       </a>
+           <i class="fa fa-bars"></i>
+        </a>
     </div> 
 
     <h2>El Inicio De La Musica</h2>
@@ -33,74 +34,117 @@
 </body>
 
 <style>
-    #logo{
-       width: 60px;
-    }
+   
+   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) 
+   @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+   }
 
-    body {
-       width: 80%;
-       height: 300px;
-       margin: auto;
-       background-color: #335C67;
-    }
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) 
+   @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+   }
 
-    header{
-       background-color: #FFF3B0;
-       padding:0 10%;
-    }
 
-    header > h1 {
-       display: inline-block;
-       margin-left: 20px;
-       font-size: 50px;
 
-    }
+   #logo{
+      width: 60px;
+   }
 
-    /* Add a black background color to the top navigation */
-    .topnav {
-       width: 300pxpx;
-       height: 40px;
-       background-color: #9E2A2B;
-       overflow: hidden;
-    }
+   body {
+      width: 80%;
+      height: 300px;
+      margin: auto;
+      background-color: #335C67;
+   }
 
-    /* Style the links inside the navigation bar */
+   header{
+      background-color: #FFF3B0;
+      padding:0 10%;
+      height: 43%;
+       
+   }
+
+   header > h1 {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 50px;
+      padding: 10px;
+      margin-top: 0px;
+   }
+
+   nav{
+      margin: 10px 10%;
+   }
+
+   nav{
+      padding:0 10px ;
+   }
+
+   /* Add a black background color to the top navigation 
+   .topnav {
+      width: 300pxpx;
+      height: 40px;
+      background-color: #9E2A2B;
+      overflow: hidden;
+   }
+
+   /* Style the links inside the navigation bar 
    .topnav a {
-       float: left;
-       display: block;
-       color: #f2f2f2;
-       text-align: center;
-       padding: 14px 16px;
-       text-decoration: none;
-       font-size: 17px;
-    }
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+   }
 
-    /* Change the color of links on hover */
+   /* Change the color of links on hover 
    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
+      background-color: #ddd;
+      color: black;
+   }
 
-    /* Add an active class to highlight the current page */
+   /* Add an active class to highlight the current page 
    .topnav a.active {
-        background-color: #540B0E;
-        color: white;
-    }
+      background-color: #540B0E;
+      color: white;
+   }
 
-    /* Hide the link that should open and close the topnav on small screens */
+   /* Hide the link that should open and close the topnav on small screens 
    .topnav .icon {
-        display: none;
-    }
+      display: none;
+   }
 
-    p {
-        font-size: 20px;
+   p {
+      font-size: 20px;
 
-    }
+   }
 
-    img {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+   img {
+      margin-top: 40px;
+      margin-bottom: 40px;
+   }
+
+   h2 {
+      margin-top: 50px;
+
+   }*/
 
 </style>
 </html>
