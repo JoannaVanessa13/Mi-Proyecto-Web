@@ -23,10 +23,18 @@
 
     h2 {
       padding: 10px;
+
       width: 225px;
       padding: 5px;
       height: 60px;
       font-size: 15px;
+    }
+
+    iframe {
+        margin-top: 180%;
+        width: 90%;
+        margin-left: 70%;
+        height: auto;
     }
    
       
