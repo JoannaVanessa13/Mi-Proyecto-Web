@@ -25,14 +25,14 @@
     width: 225px;
     padding: 5px;
     height: 60px;
-    text-align: center;
   }
 
   iframe {
     margin-top: 180%;
+    height: auto;
     width: 50px;
-    margin-left: auto;
-    padding: 5px;
+    margin-left: 70%;
+    padding: 20px;
 
   }
 
@@ -52,6 +52,15 @@
     height: 36px;
 
   }
+
+  iframe {
+    margin-top: 180%;
+    width: 50px;
+    padding: 20px;
+
+  }
+
+
 
 }
 
@@ -128,9 +137,9 @@ a{
 }
 
 iframe {
-  width: 50%;
+  width: 40%;
   margin-left: 2px;
-  margin-left: 36%;
+  margin-left: 39%;
   height: 80%;
   padding-top:0 1px;
   background-color: white;
@@ -150,7 +159,7 @@ h4{
 h2 {
   padding: 10px;
   background-color: #9E2A2B;
-  width: 250px;
+  width: 30%;
   padding: 5px;
   height: 60px;
   border-style: dashed;
@@ -168,7 +177,7 @@ main {
   width: 70%;
   height: auto;
   padding: 15%;
-  font-size: 20px;
+  font-size: 15px;
   border-style: groove;
   border-color: black;
   text-align: left;
