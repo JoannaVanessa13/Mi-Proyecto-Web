@@ -17,15 +17,27 @@
   }
 
   p {
-     color: black;
-     font-size: 5px;
+    font-size: 5px;
   }
+
   h2 {
-     padding: 10px;
-     width: 225px;
-     padding: 5px;
-     height: 60px;
-     text-align: center;
+    padding: 10px;
+    width: 225px;
+    padding: 5px;
+    height: 60px;
+    text-align: center;
+  }
+
+  iframe {
+    margin-top: 180%;
+    width: 50px;
+    margin-left: auto;
+    padding: 5px;
+
+  }
+
+  main {
+    font-size: 5px;
   }
 
    
@@ -116,16 +128,16 @@ a{
 }
 
 iframe {
-  width: 600px;
-  margin-left: 400px;
-  height: 300px;
-  padding-left: 40%;
+  width: 50%;
+  margin-left: 2px;
+  margin-left: 36%;
+  height: 70%;
   padding-top:0 1px;
-  margin-top: 1px;
   background-color: white;
-  padding: 60px;
+  padding: 40px;
   
 }
+
 
 h4{
   text-align: right;
@@ -149,12 +161,13 @@ h2 {
 
 main {
   margin: 100px;
+  margin-top: 20%;
   margin-left: 20px;
   margin-right: 20px;
   background-color: #E09F3E;
-  width: 700px;
-  height: 900px;
-  padding: 200px;
+  width: 70%;
+  height: auto;
+  padding: 15%;
   font-size: 20px;
   border-style: groove;
   border-color: black;
@@ -164,7 +177,7 @@ main {
 
 button{
   font-size: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 #music-img {
