@@ -123,23 +123,10 @@ a{
     margin-bottom: 50px;
     left: 50px;
 }
-   
-h2 {
-    padding: 10px;
-    margin-top: 40px;
-    text-align: center;
-    background-color: white;
-    border-radius: 50px;
-    width: 30%;
-    padding: 5px;
-    height: 60px;
-    color: #540B0E;
-   
-}
 
-h3 {
+h2 {
     text-align: center;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: 110px;
     margin-bottom: 40px;
     padding: 10px;
@@ -154,9 +141,26 @@ h3 {
    
 }
 
-#musica {
-    margin-left: 30%;
+h3 {
+    padding: 10px;
+    margin-top: 10%;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    width: 30%;
+    padding: 5px;
+    height: 60px;
+    color: #540B0E;
+   
 }
+
+iframe {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
   
 /* Add a black background color to the top navigation */
 .topnav {
